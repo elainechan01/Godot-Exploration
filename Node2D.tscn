@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://changeTextFromButton.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Panel" type="Panel" parent="."]
+margin_right = 1027.0
+margin_bottom = 602.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Welcome" type="Label" parent="Panel"]
+margin_left = 8.0
+margin_top = 4.0
+margin_right = 1032.0
+margin_bottom = 585.0
+custom_colors/font_color = Color( 0.537255, 0.698039, 0.584314, 1 )
+text = "Hello World
+"
+align = 1
+valign = 1
+percent_visible = -0.1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="goButton" type="Button" parent="Panel"]
+margin_left = 482.0
+margin_top = 317.0
+margin_right = 561.0
+margin_bottom = 353.0
+text = "Let's go!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
